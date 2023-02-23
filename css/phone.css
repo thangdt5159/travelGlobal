@@ -1,191 +1,218 @@
 @media only screen and (max-width: 900px) {
-    header {
-        z-index: 999999999999999999999;
-        background: #110328;
-        padding: 0 15px;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        left: 0;
-        box-shadow: 0px 5px 20px rgb(0 0 0 / 47%);
-    }
-  
-    .travel-invest,.travel-invest .travel-invest-text {
-        width: 97%;
-    }
-    .travel-invest img {
-        width: 76%;
-        margin: 0px auto;
-        float: unset;
-        display: block;
-    }
-    .content {
-      width: 97%;
-      padding: 5px;
+  header {
+    z-index: 999999999999999999999;
+    background: #110328;
+    padding: 0 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 20px rgb(0 0 0 / 47%);
+  }
+
+  .travel-invest,
+  .travel-invest .travel-invest-text {
+    width: 97%;
+  }
+  .travel-invest img {
+    width: 76%;
+    margin: 0px auto;
+    float: unset;
+    display: block;
+  }
+  .content {
+    width: 97%;
+    padding: 5px;
   }
   .btn {
-      display: flex;
-      position: fixed;
-      z-index: 99999999999
+    display: flex;
+    position: fixed;
+    z-index: 99999999999;
   }
   .team-content {
-      width: 95%;
+    width: 95%;
   }
   .land-invest {
-      height: 410px;
-      border-radius: 25px;
-      background-image: url(../img/nft-home.png);
-      background-position: 114% 105%;
-      margin-top: 120px;
-      width: 97%;
-      height: auto;
+    height: 410px;
+    border-radius: 25px;
+    background-image: url(../img/nft-home.png);
+    background-position: 114% 105%;
+    margin-top: 120px;
+    width: 97%;
+    height: auto;
   }
   footer {
-      width: 90%;
+    width: 90%;
   }
   .land-invest .land-invest-content {
-      width: 100%;
-      margin-left: 0;
-      margin-top: 0;
-      padding: 55px 15px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 55px 15px;
   }
   .land-invest .land-button {
-    left: 4%
+    left: 4%;
   }
   .menu {
-      display: none;
+    display: none;
   }
   ._content_left ._content_btn a {
-      margin-right: 5px;
-      padding: 0px 10px;
-      font-size: 16px;
+    margin-right: 5px;
+    padding: 0px 10px;
+    font-size: 16px;
   }
   .open-menu {
-      display: block;
+    display: block;
   }
   .open-menu {
-      width: 100%;
-      height: 100vh;
-      background: #110328;
-      top: 0;
-      transition: 1s all;
-      left: 0;
-      z-index: 99999;
-      position: fixed;
-      margin-top: 0;
-      padding-top: 65px
+    width: 100%;
+    height: 100vh;
+    background: #110328;
+    top: 0;
+    transition: 1s all;
+    left: 0;
+    z-index: 99999;
+    position: fixed;
+    margin-top: 0;
+    padding-top: 65px;
   }
   .open-menu li a {
-      display: block;
-      font-size: 19px;
-      margin-bottom: 10px;
+    display: block;
+    font-size: 19px;
+    margin-bottom: 10px;
   }
   ._2video {
-      width: 95%;
-      float: unset;
-      margin: 0 auto 30px auto;
+    width: 95%;
+    float: unset;
+    margin: 0 auto 30px auto;
   }
   ._2video:nth-child(2) {
-      margin-top: 60px;
+    margin-top: 60px;
   }
   .open-menu li {
-      display: block !important;
-      width: 100%;
-      text-align: center;
+    display: block !important;
+    width: 100%;
+    text-align: center;
   }
-  .meta-desktop{
-    display:none
+  .meta-desktop {
+    display: none;
   }
-  .meta-mobile{
-    display:block
+  .meta-mobile {
+    display: block;
   }
-  .link-header{
+
+  .meta-desk {
+    display: none;
+  }
+
+  .meta-mb {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    row-gap: 8px;
+    margin: 0 auto;
+  }
+
+  .meta-mb li {
+    width: 49%;
+    height: 100px;
+  }
+
+  .meta-mb li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+  }
+
+  .link-header {
     background: unset;
     border-radius: unset;
-    box-shadow: unset
+    box-shadow: unset;
   }
   ._content_right img {
-      width: 95%;
+    width: 95%;
   }
   header ul li {
     display: none;
   }
-  
-  ._content_left{
-      float: left;
-      width: 100%;
-      padding-top: 170px;
+
+  ._content_left {
+    float: left;
+    width: 100%;
+    padding-top: 170px;
   }
-  
+
   .partners a {
-      width: 48%;
+    width: 48%;
   }
-  
-  ._content_right{
+
+  ._content_right {
     display: none;
   }
   ._content_ {
-      width: 95%;
+    width: 95%;
   }
   footer .footer-row h3 {
-      margin-top: 30px;
-      border-left: 3px solid #23d3d3;
-      padding-left: 6px;
+    margin-top: 30px;
+    border-left: 3px solid #23d3d3;
+    padding-left: 6px;
   }
   header {
-      padding: 0 15px;
+    padding: 0 15px;
   }
-  
+
   .box p {
-      width: 96%;
+    width: 96%;
   }
   header .logo {
-      height: 94px;
-      width: 261px;
+    height: 94px;
+    width: 261px;
   }
   ._content_travel_row {
-      width: 100%;
-      padding: 20px 0;
-      float: left;
-      margin-right: unset;
-      margin-bottom: 20px
+    width: 100%;
+    padding: 20px 0;
+    float: left;
+    margin-right: unset;
+    margin-bottom: 20px;
   }
   .travel-invest-text {
-      margin-bottom: 25px;
+    margin-bottom: 25px;
   }
-  .metaverse-video-con, .metaverse-video iframe {
-      height: auto;
-      width: 100%;
-      min-height: 209px;
+  .metaverse-video-con,
+  .metaverse-video iframe {
+    height: auto;
+    width: 100%;
+    min-height: 209px;
   }
-  
-  footer .footer-row,.countDown {
-      width: 100%;
+
+  footer .footer-row,
+  .countDown {
+    width: 100%;
   }
   .section {
-      width: 100%;
+    width: 100%;
   }
   .team .team-row {
-      width: 50%;
-      height: auto;
-      padding-bottom: 15px
+    width: 50%;
+    height: auto;
+    padding-bottom: 15px;
   }
-  
+
   .countDown p {
-      font-size: 13px;
-      width: 100%
+    font-size: 13px;
+    width: 100%;
   }
   .countDown .time_buy_row {
-      width: 50%
+    width: 50%;
   }
   ._content_left h1 {
-      font-size: 47px;
-      line-height: 49px;
+    font-size: 47px;
+    line-height: 49px;
   }
-  .nft-row{
-      width: 93%;
-      float: unset;
-      margin: 25px auto
+  .nft-row {
+    width: 93%;
+    float: unset;
+    margin: 25px auto;
   }
-  }
-  
+}
